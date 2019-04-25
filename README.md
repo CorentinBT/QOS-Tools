@@ -1,4 +1,4 @@
-###cg_limit
+### cg_limit
 
 Script to apply network and/or memory restrictions to a process and children of this process. This is useful to watch the behavior of a workload under some limitations.
 
@@ -17,10 +17,10 @@ The traffic control utility cannot be used to control ingress traffic. Thus for 
 
 This script cannot be used to increase ingress latency. 
 
-###lim_latency
+### lim_latency
 
 Script created in case we want to control both ingress and egress latency. These restrictions are not only applied to a process and children of this process but to all communications to a subnetwork (specified by a netmask).
 
-###del_lim_latency
+### del_lim_latency
 
 Script to delete all limitations created by `lim_latency` script. 
